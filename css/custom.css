@@ -66,6 +66,11 @@ main {
     color: #26998c !important;
 }
 
+.project-img {
+    object-fit: cover;
+    object-position: top;
+}
+
 @media (max-width: 991px) {
     .nav-item {
         padding: 8px;
