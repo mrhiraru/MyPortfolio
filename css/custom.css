@@ -124,6 +124,10 @@
     .project-img {
         height: 280px;
     }
+
+    .icon-font {
+        font-size: 25rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -135,10 +139,18 @@
         max-width: 200px;
         max-height: 200px;
     }
+
+    .icon-font {
+        font-size: 20rem;
+    }
 }
 
 @media (max-width: 575px) {
     .project-img {
         height: 200px;
+    }
+
+    .icon-font {
+        font-size: 15rem;
     }
 }
