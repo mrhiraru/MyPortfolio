@@ -44,7 +44,7 @@
     font-weight: 700;
 }
 
-main {
+#home {
     background-image: url("../images/trans-bg.png");
     background-size: cover;
     background-position-y: 10%;
