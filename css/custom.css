@@ -35,6 +35,7 @@
     color: var(--secondary) !important;
     border-bottom: 3px var(--secondary) solid;
     font-weight: 700;
+    transition: ease-in 0.2s;
 }
 
 
@@ -42,6 +43,7 @@
     color: var(--secondary) !important;
     border-bottom: 3px var(--secondary) solid;
     font-weight: 700;
+    transition: ease-in 0.2s;
 }
 
 #home {
@@ -64,6 +66,10 @@
     background-color: #0b1418;
     border: #26998c solid 1px;
     color: #26998c !important;
+}
+
+.btn {
+    transition: ease-in 0.2s !important;
 }
 
 .project-img {
