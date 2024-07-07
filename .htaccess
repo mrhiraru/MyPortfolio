@@ -1,4 +1,10 @@
 RewriteEngine on
+
+# Hide .html extension
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html
+RewriteRule ^(.*)$ $1.html [L]
+
+# Remove fragment identifier from URL
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^\s#]+)#.*\sHTTP.*$
+RewriteRule ^ %1 [R=301,L]
