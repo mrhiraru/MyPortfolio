@@ -111,6 +111,10 @@
     max-height: 300px;
 }
 
+.icon-font {
+    font-size: 30rem;
+}
+
 @media (max-width: 991px) {
     .nav-item {
         text-align: start;
