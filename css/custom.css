@@ -67,15 +67,30 @@
 }
 
 .project-img {
+    height: 300px;
     object-fit: cover;
     object-position: top;
 }
 
 @media (max-width: 991px) {
     .nav-item {
-        padding: 8px;
         text-align: start;
-        margin-left: 0px;
-        margin-right: 0px;
+        padding-left: 0px;
+    }
+
+    .project-img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    .project-img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 575px) {
+    .project-img {
+        height: 150px;
     }
 }
