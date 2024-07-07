@@ -100,6 +100,11 @@
     transform: translateY(0px);
 }
 
+#moon {
+    max-width: 300px;
+    max-height: 300px;
+}
+
 @media (max-width: 991px) {
     .nav-item {
         text-align: start;
@@ -114,6 +119,11 @@
 @media (max-width: 767px) {
     .project-img {
         height: 250px;
+    }
+
+    #moon {
+        max-width: 200px;
+        max-height: 200px;
     }
 }
 
