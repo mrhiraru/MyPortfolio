@@ -47,7 +47,7 @@
 }
 
 #home {
-    background-image: url("../images/trans-bg.png");
+    background-image: linear-gradient(to top, rgba(26, 47, 56, 1), rgba(26, 47, 56, 0.5)), url("../images/trans-bg.png");
     background-size: cover;
     background-position-y: 10%;
     background-position-x: 80%;
