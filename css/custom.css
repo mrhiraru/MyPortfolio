@@ -119,6 +119,15 @@
     font-size: 30rem;
 }
 
+.footer-font {
+    font-size: 5rem;
+}
+
+.footer-image {
+    width: 5rem;
+    height: 5rem;
+}
+
 @media (max-width: 991px) {
     .nav-item {
         text-align: start;
